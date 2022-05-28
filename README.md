@@ -1,5 +1,5 @@
 # Buffer-Overflow
-This was my os semester project.
+This was my operating systems semester project.
 Exploiting stack buffer overflow vulnerability on FreeFloat FTP server that results in a reverse shell to the victim machine. To start off you need a kali linux machine from where you will be sending the exploit code and your windows vm machine which will be the target. 
 You will need to download some resources in your windows machine: 
 1. Immunity debugger
