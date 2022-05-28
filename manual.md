@@ -1,15 +1,8 @@
-BUFFER OVERFLOW MANUAL
+###BUFFER OVERFLOW MANUAL
 
 
 
 
-
-
-
-
-Submitted by: Muhammad Zain-ul-abideen Roll No: 201002
-Semester: BSCYS-4B
- 
 Stack Buffer Overflow Theory
 Stack buffer overflow is a memory corruption vulnerability that occurs when a program writes more data to a buffer located on the stack than what is actually allocated for that buffer, therefore overflowing to a memory address that is outside of the intended data structure.
 This will often cause the program to crash, and if certain conditions are met, it could allow an attacker to gain remote control of the machine with privileges as high as the user running the program, by redirecting the flow execution of the application to malicious code.
